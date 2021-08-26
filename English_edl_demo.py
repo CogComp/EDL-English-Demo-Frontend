@@ -209,8 +209,8 @@ def processEDL(myTabularView,lang,text,nerjson={}):
     #if "tokens" in annjson:
     #    tokens = annjson["tokens"]
     #    if len(tokens) != len(myTabularView.getTokens()): return
-    if True and annjson:
-        myTabularView.addSpanList(annjson,"EDL","EDL")
+    # if True and annjson:
+    #     myTabularView.addSpanList(annjson,"EDL","EDL")
     return annjson
 
 

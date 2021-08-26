@@ -1,246 +1,291 @@
 {
     "eng": {
-        "84d37071072f51295ad7eed77a37b59d735b0f2c": {
-            "text": "Two bombs were detonated in Boston.",
-            "res_json": [
-                {
-                    "label": "B",
-                    "score": 0.3622434139251709,
-                    "start": 0,
-                    "end": 1,
-                    "tokens": "Two",
-                    "labelScoreMap": {
-                        "B": 0.3622434139251709,
-                        "A": -6.758605003356934,
-                        "T": -12.813244819641113,
-                        "2": -11.174542427062988,
-                        "D": -11.189976692199707,
-                        "1": -13.013708114624023,
-                        "L": -12.106731414794922
-                    }
-                },
-                {
-                    "label": "B",
-                    "score": 10.060949325561523,
-                    "start": 5,
-                    "end": 6,
-                    "tokens": "Boston",
-                    "labelScoreMap": {
-                        "B": -11.691704750061035,
-                        "M": -3.261227607727051,
-                        "S": -5.482919692993164,
-                        "Q": -5.573032379150391,
-                        "O": -9.159119606018066
-                    }
-                }
-            ]
-        },
         "27e7e7a3f15ebf1c09536d81b988aceacb85c2fe": {
             "text": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud was born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire. He qualified as a doctor of medicine in 1881 at the University of Vienna. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
             "res_json": [
                 {
-                    "label": "S",
+                    "label": "Sigmund Freud",
                     "score": 12.70046329498291,
                     "start": 0,
                     "end": 2,
                     "tokens": "Sigmund Freud",
                     "labelScoreMap": {
-                        "S": -11.279129981994629,
-                        "J": -5.87326717376709,
-                        "T": -7.034864902496338,
-                        "C": -11.349340438842773,
-                        "E": -7.761795520782471,
-                        "A": -8.088584899902344,
-                        "L": -9.483287811279297
+                        "Sigmund Freud": 12.70046329498291,
+                        "Jacob Freud": -5.87326717376709,
+                        "The Life and Work of Sigmund Freud": -7.034864902496338,
+                        "Carl Jung": -7.311797618865967,
+                        "Sigmund Freud Institute": -7.561412811279297,
+                        "Ernst L. Freud": -7.761795520782471,
+                        "Anna Freud": -8.088584899902344,
+                        "Lucian Freud": -9.483287811279297,
+                        "Sigmund Freudenberger": -11.279129981994629,
+                        "Carl Ludwig Sigmund": -11.349340438842773
                     }
                 },
                 {
-                    "label": "A",
+                    "label": "Austria",
                     "score": 4.754846572875977,
                     "start": 4,
                     "end": 5,
                     "tokens": "Austrian",
                     "labelScoreMap": {
-                        "A": -11.38998794555664,
-                        "V": -0.7465388178825378,
-                        "H": -3.2316207885742188,
-                        "D": -7.18342399597168
+                        "Austria": 4.754846572875977,
+                        "Austrians": 2.958124876022339,
+                        "Vienna": -0.7465388178825378,
+                        "Austrian Empire": -2.5646724700927734,
+                        "Habsburg Monarchy": -3.2021186351776123,
+                        "House of Habsburg": -3.2316207885742188,
+                        "Austria-Hungary": -3.666142702102661,
+                        "Duchy of Austria": -7.18342399597168,
+                        "Austrian Americans": -8.618831634521484,
+                        "Austrian": -11.38998794555664
                     }
                 },
                 {
-                    "label": "G",
+                    "label": "Galicia (Eastern Europe)",
                     "score": -0.26053792238235474,
                     "start": 31,
                     "end": 32,
                     "tokens": "Galician",
                     "labelScoreMap": {
-                        "G": -5.345898151397705,
-                        "K": -3.182436466217041,
-                        "L": -3.418809175491333,
-                        "H": -4.872949123382568,
-                        "C": -9.156675338745117
+                        "Galicia (Eastern Europe)": -0.26053792238235474,
+                        "Galicians": -2.4323859214782715,
+                        "Kingdom of Galicia and Lodomeria": -3.182436466217041,
+                        "Galician Jews": -3.2586514949798584,
+                        "Lviv": -3.418809175491333,
+                        "Galician language": -3.6447365283966064,
+                        "Galicia (Spain)": -4.026413917541504,
+                        "Hungary": -4.872949123382568,
+                        "Galician Germans": -5.345898151397705,
+                        "Croats": -9.156675338745117
                     }
                 },
                 {
-                    "label": "J",
+                    "label": "Jews",
                     "score": 4.634382247924805,
                     "start": 32,
                     "end": 33,
                     "tokens": "Jewish",
                     "labelScoreMap": {
-                        "J": -6.677605152130127,
-                        "A": -9.048691749572754,
-                        "H": -10.94347858428955,
-                        "L": -8.566205024719238,
-                        "W": -8.712874412536621
+                        "Jews": 4.634382247924805,
+                        "Ashkenazi Jews": -4.829829216003418,
+                        "Judaism": -5.616886615753174,
+                        "Jewish history": -6.677605152130127,
+                        "History of the Jews in Europe": -8.072075843811035,
+                        "List of Austrian Jews": -8.566205024719238,
+                        "Who is a Jew?": -8.712874412536621,
+                        "History of the Jews in Austria": -8.873501777648926,
+                        "American Jews": -9.048691749572754,
+                        "History of the Jews in Vienna": -10.94347858428955
                     }
                 },
                 {
-                    "label": "M",
+                    "label": "Moravian Church",
                     "score": -0.664932131767273,
                     "start": 36,
                     "end": 37,
                     "tokens": "Moravian",
                     "labelScoreMap": {
-                        "M": -7.526090621948242,
-                        "B": -5.147631645202637,
-                        "D": -6.166234970092773,
-                        "S": -7.233165264129639
+                        "Moravian Church": -0.664932131767273,
+                        "Brno": -5.147631645202637,
+                        "Moravia": -5.512357711791992,
+                        "Moravian-Silesian Region": -5.9821085929870605,
+                        "Denmark": -6.166234970092773,
+                        "Moravians": -6.215848445892334,
+                        "Moravians (tribe)": -6.399348258972168,
+                        "Moravian Slovakia": -6.465841293334961,
+                        "South Moravian Region": -7.233165264129639,
+                        "Moravian Wallachia": -7.526090621948242
                     }
                 },
                 {
-                    "label": "F",
+                    "label": "Freiberg",
                     "score": 5.033956050872803,
                     "start": 39,
                     "end": 40,
                     "tokens": "Freiberg",
                     "labelScoreMap": {
-                        "F": -11.425298690795898,
-                        "E": -10.299695014953613,
-                        "J": -11.321890830993652,
-                        "H": -11.537827491760254
+                        "Freiberg": 5.033956050872803,
+                        "Freiberg am Neckar": -8.535185813903809,
+                        "Freistadt": -10.026909828186035,
+                        "Fren\u0161t\u00e1t pod Radho\u0161t\u011bm": -10.125580787658691,
+                        "Eisenstadt": -10.299695014953613,
+                        "Jesen\u00edk": -10.580967903137207,
+                        "Freinberg": -11.205020904541016,
+                        "Jevi\u0161ovka": -11.321890830993652,
+                        "Friedberg, Styria": -11.425298690795898,
+                        "Heiligenberg, Austria": -11.537827491760254
                     }
                 },
                 {
-                    "label": "A",
+                    "label": "Austrian Empire",
                     "score": 5.008071422576904,
                     "start": 42,
                     "end": 45,
                     "tokens": "the Austrian Empire",
                     "labelScoreMap": {
-                        "A": -8.801210403442383,
-                        "H": -4.430945873260498,
-                        "F": -7.016136646270752,
-                        "E": -7.139652729034424,
-                        "C": -8.040454864501953,
-                        "S": -9.702716827392578
+                        "Austrian Empire": 5.008071422576904,
+                        "Austria": -3.5232205390930176,
+                        "Austria-Hungary": -4.024547576904297,
+                        "Habsburg Monarchy": -4.430945873260498,
+                        "Franz Joseph I of Austria": -7.016136646270752,
+                        "Emperor of Austria": -7.139652729034424,
+                        "Cisleithania": -8.040454864501953,
+                        "Austrian Littoral": -8.443812370300293,
+                        "Austrian Silesia": -8.801210403442383,
+                        "Second French Empire": -9.702716827392578
                     }
                 },
                 {
-                    "label": "M",
+                    "label": "Medical University of Vienna",
                     "score": -6.6082234382629395,
                     "start": 54,
                     "end": 55,
                     "tokens": "1881",
                     "labelScoreMap": {
-                        "M": -6.6082234382629395,
-                        "G": -9.46697998046875,
-                        "1": -12.52440357208252
+                        "Medical University of Vienna": -6.6082234382629395,
+                        "Gesellschaft der \u00c4rzte in Wien": -9.46697998046875,
+                        "1881 in science": -10.164989471435547,
+                        "1881 in literature": -10.681702613830566,
+                        "1882 in science": -11.550572395324707,
+                        "1880 in science": -11.569397926330566,
+                        "1878 in science": -11.745975494384766,
+                        "1877 in science": -11.950237274169922,
+                        "1897 in science": -11.997024536132812,
+                        "1981 in philosophy": -12.52440357208252
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "University of Vienna",
                     "score": 9.149806022644043,
                     "start": 56,
                     "end": 60,
                     "tokens": "the University of Vienna",
                     "labelScoreMap": {
-                        "U": -10.326971054077148,
-                        "M": -0.32875126600265503,
-                        "T": -1.3107061386108398,
-                        "V": -8.140368461608887,
-                        "S": -6.1418328285217285,
-                        "F": -11.218486785888672
+                        "University of Vienna": 9.149806022644043,
+                        "Medical University of Vienna": -0.32875126600265503,
+                        "TU Wien": -1.3107061386108398,
+                        "Vienna": -3.8104045391082764,
+                        "Sigmund Freud University Vienna": -6.1418328285217285,
+                        "University of Music and Performing Arts Vienna": -7.170124053955078,
+                        "Vienna University of Economics and Business": -8.140368461608887,
+                        "University of Veterinary Medicine Vienna": -8.431639671325684,
+                        "University of Paris": -10.326971054077148,
+                        "Franz Joseph University": -11.218486785888672
                     }
                 },
                 {
-                    "label": "V",
+                    "label": "Vienna",
                     "score": 9.424912452697754,
                     "start": 66,
                     "end": 67,
                     "tokens": "Vienna",
                     "labelScoreMap": {
-                        "V": -11.122298240661621,
-                        "U": -4.333043575286865,
-                        "P": -5.476294994354248,
-                        "H": -6.95806360244751,
-                        "W": -7.257602214813232,
-                        "S": -7.470975875854492,
-                        "T": -10.650683403015137
+                        "Vienna": 9.424912452697754,
+                        "University of Vienna": -4.333043575286865,
+                        "Paris": -5.476294994354248,
+                        "History of Vienna": -6.95806360244751,
+                        "Wiener Neustadt": -7.257602214813232,
+                        "Steyr": -7.470975875854492,
+                        "Vienna, West Virginia": -9.197465896606445,
+                        "Vienna, Virginia": -9.758049964904785,
+                        "Timeline of Vienna": -10.650683403015137,
+                        "Vienna, Missouri": -11.122298240661621
                     }
                 },
                 {
-                    "label": "T",
+                    "label": "The History of the Psychoanalytic Movement",
                     "score": -9.725188255310059,
                     "start": 76,
                     "end": 77,
                     "tokens": "1886",
                     "labelScoreMap": {
-                        "T": -9.725188255310059,
-                        "1": -12.36957836151123
+                        "The History of the Psychoanalytic Movement": -9.725188255310059,
+                        "1886 in science": -10.46066951751709,
+                        "1886 in film": -10.792163848876953,
+                        "1886 in literature": -10.85910415649414,
+                        "1886 in archaeology": -11.557385444641113,
+                        "1986": -11.61661148071289,
+                        "1886 in art": -11.686336517333984,
+                        "1786": -12.06425952911377,
+                        "1918 in philosophy": -12.276082038879395,
+                        "1986 in philosophy": -12.36957836151123
                     }
                 },
                 {
-                    "label": "S",
+                    "label": "Sigmund Freud",
                     "score": -5.032543659210205,
                     "start": 79,
                     "end": 80,
                     "tokens": "1938",
                     "labelScoreMap": {
-                        "S": -5.032543659210205,
-                        "1": -11.942084312438965,
-                        "N": -11.760647773742676
+                        "Sigmund Freud": -5.032543659210205,
+                        "1939": -10.343555450439453,
+                        "1938 in film": -10.36624813079834,
+                        "1938 in literature": -10.777448654174805,
+                        "1938 in Austria": -11.019743919372559,
+                        "1938 in philosophy": -11.428772926330566,
+                        "1938 in Germany": -11.446548461914062,
+                        "1938 in Poland": -11.63364028930664,
+                        "November 1938": -11.760647773742676,
+                        "1738": -11.942084312438965
                     }
                 },
                 {
-                    "label": "N",
+                    "label": "Nazism",
                     "score": 6.354287624359131,
                     "start": 86,
                     "end": 87,
                     "tokens": "Nazi",
                     "labelScoreMap": {
-                        "N": -6.754861354827881,
-                        "A": -4.694188594818115,
-                        "F": -5.355762481689453,
-                        "G": -8.188304901123047,
-                        "B": -7.400322914123535,
-                        "H": -8.295597076416016
+                        "Nazism": 6.354287624359131,
+                        "Nazi Germany": -1.3116792440414429,
+                        "Adolf Hitler": -4.694188594818115,
+                        "Fascism": -5.355762481689453,
+                        "Nazi Party": -5.799442768096924,
+                        "Neo-Nazism": -6.754861354827881,
+                        "Gestapo": -7.296861171722412,
+                        "Benito Mussolini": -7.400322914123535,
+                        "German Reich": -8.188304901123047,
+                        "Hitler family": -8.295597076416016
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "United Kingdom",
                     "score": 3.5166475772857666,
                     "start": 94,
                     "end": 97,
                     "tokens": "the United Kingdom",
                     "labelScoreMap": {
-                        "U": -12.028277397155762,
-                        "G": -0.8238759636878967,
-                        "E": -11.07799243927002,
-                        "B": -5.839624404907227,
-                        "C": -9.161023139953613,
-                        "H": -11.182034492492676
+                        "United Kingdom": 3.5166475772857666,
+                        "Great Britain": -0.8238759636878967,
+                        "England": -2.072145700454712,
+                        "United Kingdom of Great Britain and Ireland": -5.047340393066406,
+                        "British Isles": -5.839624404907227,
+                        "Countries of the United Kingdom": -7.015061855316162,
+                        "Capital punishment in the United Kingdom": -9.161023139953613,
+                        "Euthanasia in the United Kingdom": -11.07799243927002,
+                        "History of the United Kingdom (1945\u2013present)": -11.182034492492676,
+                        "United Kingdom (disambiguation)": -12.028277397155762
                     }
                 },
                 {
-                    "label": "A",
+                    "label": "Anschluss",
                     "score": -5.040821075439453,
                     "start": 98,
                     "end": 99,
                     "tokens": "1939",
                     "labelScoreMap": {
-                        "A": -5.040821075439453,
-                        "1": -11.755396842956543
+                        "Anschluss": -5.040821075439453,
+                        "1939": -8.246371269226074,
+                        "1940": -10.136604309082031,
+                        "1939 in literature": -10.145800590515137,
+                        "1939 in film": -10.921719551086426,
+                        "1939 in Germany": -11.029956817626953,
+                        "1939 in philosophy": -11.085006713867188,
+                        "1939 in Poland": -11.161800384521484,
+                        "1938 in Poland": -11.716553688049316,
+                        "1939 in paleontology": -11.755396842956543
                     }
                 }
             ]
@@ -249,213 +294,288 @@
             "text": "Barack Hussein Obama II is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004.",
             "res_json": [
                 {
-                    "label": "B",
+                    "label": "Barack Obama",
                     "score": 12.456881523132324,
                     "start": 0,
                     "end": 4,
                     "tokens": "Barack Hussein Obama II",
                     "labelScoreMap": {
-                        "B": -11.977503776550293,
-                        "P": -10.102285385131836,
-                        "L": -10.36484146118164,
-                        "A": -11.068196296691895,
-                        "O": -12.618803977966309
+                        "Barack Obama": 12.456881523132324,
+                        "Presidency of Barack Obama": -4.0117902755737305,
+                        "Barack Obama Sr.": -7.722961902618408,
+                        "Presidential transition of Barack Obama": -10.102285385131836,
+                        "List of things named after Barack Obama": -10.36484146118164,
+                        "Barack Obama (disambiguation)": -10.578590393066406,
+                        "Adlai Stevenson II": -11.00202751159668,
+                        "Abdullah II of Jordan": -11.068196296691895,
+                        "Barack (disambiguation)": -11.977503776550293,
+                        "Obama (disambiguation)": -12.618803977966309
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "United States",
                     "score": 5.648134708404541,
                     "start": 6,
                     "end": 7,
                     "tokens": "American",
                     "labelScoreMap": {
-                        "U": -12.127710342407227,
-                        "A": -11.099881172180176,
-                        "P": -3.1271748542785645,
-                        "C": -6.154522895812988
+                        "United States": 5.648134708404541,
+                        "Americans": -0.026381131261587143,
+                        "Americas": -0.9794126152992249,
+                        "President of the United States": -3.1271748542785645,
+                        "U.S. state": -4.146224498748779,
+                        "Citizenship of the United States": -6.154522895812988,
+                        "American Century": -8.233366966247559,
+                        "American Canadians": -11.099881172180176,
+                        "United States (disambiguation)": -12.013313293457031,
+                        "United State": -12.127710342407227
                     }
                 },
                 {
-                    "label": "B",
+                    "label": "Barack Obama",
                     "score": -0.7312716841697693,
                     "start": 14,
                     "end": 15,
                     "tokens": "44th",
                     "labelScoreMap": {
-                        "B": -9.114972114562988,
-                        "P": -4.905671119689941,
-                        "H": -8.417512893676758,
-                        "4": -8.445805549621582,
-                        "1": -11.063733100891113
+                        "Barack Obama": -0.7312716841697693,
+                        "President of the United States": -4.905671119689941,
+                        "Hillary Clinton": -8.417512893676758,
+                        "44th United States Congress": -8.445805549621582,
+                        "Bill Clinton": -9.114972114562988,
+                        "114th United States Congress": -9.891866683959961,
+                        "111th United States Congress": -10.28807544708252,
+                        "112th United States Congress": -10.66120433807373,
+                        "116th United States Congress": -10.836587905883789,
+                        "108th United States Congress": -11.063733100891113
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "United States",
                     "score": 6.661959648132324,
                     "start": 17,
                     "end": 20,
                     "tokens": "the United States",
                     "labelScoreMap": {
-                        "U": -6.965026378631592,
-                        "P": -1.5801974534988403,
-                        "F": -3.9985625743865967,
-                        "A": -4.4993157386779785,
-                        "L": -8.46604061126709,
-                        "V": -6.483830451965332,
-                        "C": -6.680288314819336
+                        "United States": 6.661959648132324,
+                        "President of the United States": -1.5801974534988403,
+                        "Federal government of the United States": -3.9985625743865967,
+                        "United States Congress": -4.195732116699219,
+                        "Americans": -4.4993157386779785,
+                        "List of Presidents of the United States": -5.222701072692871,
+                        "Vice President of the United States": -6.483830451965332,
+                        "Constitution of the United States": -6.680288314819336,
+                        "United States presidential election": -6.965026378631592,
+                        "Law of the United States": -8.46604061126709
                     }
                 },
                 {
-                    "label": "P",
+                    "label": "Presidency of Barack Obama",
                     "score": 1.9562749862670898,
                     "start": 21,
                     "end": 22,
                     "tokens": "2009",
                     "labelScoreMap": {
-                        "P": -3.037198066711426,
-                        "B": -1.7400869131088257,
-                        "2": -10.8037109375,
-                        "M": -9.710511207580566,
-                        "1": -10.622786521911621
+                        "Presidency of Barack Obama": 1.9562749862670898,
+                        "Barack Obama": -1.7400869131088257,
+                        "President of the United States": -3.037198066711426,
+                        "2008 United States presidential election": -6.711817741394043,
+                        "2009 Nobel Peace Prize": -7.407455921173096,
+                        "2009 Pulitzer Prize": -8.837583541870117,
+                        "Miss USA 2009": -9.710511207580566,
+                        "1960 United States presidential election": -10.200915336608887,
+                        "1964 United States presidential election": -10.622786521911621,
+                        "2009 Iranian presidential election": -10.8037109375
                     }
                 },
                 {
-                    "label": "P",
+                    "label": "President of the United States",
                     "score": -3.013627052307129,
                     "start": 23,
                     "end": 24,
                     "tokens": "2017",
                     "labelScoreMap": {
-                        "P": -3.013627052307129,
-                        "2": -10.838587760925293,
-                        "I": -7.088223457336426,
-                        "M": -10.084687232971191
+                        "President of the United States": -3.013627052307129,
+                        "2016 United States presidential election": -4.632503509521484,
+                        "2017": -6.498318672180176,
+                        "Inauguration of Donald Trump": -7.088223457336426,
+                        "2017 United States federal budget": -7.291164875030518,
+                        "2017 NFL season": -7.466649532318115,
+                        "Miss America 2017": -9.519549369812012,
+                        "Miss USA 2017": -10.084687232971191,
+                        "2017 Indian presidential election": -10.555834770202637,
+                        "2017 French presidential election": -10.838587760925293
                     }
                 },
                 {
-                    "label": "D",
+                    "label": "Democratic Party (United States)",
                     "score": 10.007902145385742,
                     "start": 28,
                     "end": 31,
                     "tokens": "the Democratic Party",
                     "labelScoreMap": {
-                        "D": -10.513228416442871,
-                        "H": -4.8278279304504395,
-                        "O": -9.90641975402832,
-                        "M": -10.643306732177734
+                        "Democratic Party (United States)": 10.007902145385742,
+                        "Democratic National Committee": -0.6925668716430664,
+                        "History of the United States Democratic Party": -4.8278279304504395,
+                        "Delaware Democratic Party": -8.031478881835938,
+                        "Democratic Party (Italy)": -8.19577407836914,
+                        "Democratic Party (Luxembourg)": -8.723406791687012,
+                        "Democratic Party (Serbia)": -9.798088073730469,
+                        "Oklahoma Democratic Party": -9.90641975402832,
+                        "Democratic Party of the Virgin Islands": -10.513228416442871,
+                        "Maine Democratic Party": -10.643306732177734
                     }
                 },
                 {
-                    "label": "B",
+                    "label": "Barack Obama",
                     "score": 10.460737228393555,
                     "start": 32,
                     "end": 33,
                     "tokens": "Obama",
                     "labelScoreMap": {
-                        "B": -8.750893592834473,
-                        "P": -3.2547829151153564,
-                        "M": -5.9726176261901855,
-                        "A": -10.52528190612793,
-                        "L": -8.207069396972656,
-                        "J": -8.455220222473145,
-                        "G": -9.275174140930176
+                        "Barack Obama": 10.460737228393555,
+                        "Presidency of Barack Obama": 1.3025538921356201,
+                        "President of the United States": -3.2547829151153564,
+                        "Michelle Obama": -5.9726176261901855,
+                        "Abraham Lincoln": -7.616060733795166,
+                        "Lyndon B. Johnson": -8.207069396972656,
+                        "John F. Kennedy": -8.455220222473145,
+                        "Bill Clinton": -8.750893592834473,
+                        "Gerald Ford": -9.275174140930176,
+                        "Al Gore": -10.52528190612793
                     }
                 },
                 {
-                    "label": "P",
+                    "label": "Presidency of Barack Obama",
                     "score": 2.0278470516204834,
                     "start": 35,
                     "end": 36,
                     "tokens": "first",
                     "labelScoreMap": {
-                        "P": -2.6276824474334717,
-                        "L": -11.8085298538208,
-                        "F": -4.805987358093262,
-                        "A": -7.488576412200928
+                        "Presidency of Barack Obama": 2.0278470516204834,
+                        "President of the United States": -2.6276824474334717,
+                        "List of Presidents of the United States": -4.46290922164917,
+                        "First Family of the United States": -4.805987358093262,
+                        "List of African-American firsts": -5.6412529945373535,
+                        "African-American heritage of presidents of the United States": -7.488576412200928,
+                        "List of Presidents of the United States by time in office": -9.037084579467773,
+                        "List of Presidents of the United States who owned slaves": -9.235108375549316,
+                        "List of first African-American mayors": -10.923968315124512,
+                        "List of the first LGBT holders of political offices in the United States": -11.8085298538208
                     }
                 },
                 {
-                    "label": "A",
+                    "label": "African Americans",
                     "score": 0.2635451555252075,
                     "start": 36,
                     "end": 39,
                     "tokens": "African-American",
                     "labelScoreMap": {
-                        "A": -9.849294662475586,
-                        "L": -7.331401824951172,
-                        "W": -7.537830829620361,
-                        "M": -8.290628433227539
+                        "African Americans": 0.2635451555252075,
+                        "African-American history": -6.912603855133057,
+                        "Lists of African Americans": -7.331401824951172,
+                        "White Americans": -7.537830829620361,
+                        "Multiracial Americans": -8.290628433227539,
+                        "African Americans in Tennessee": -8.487730026245117,
+                        "African-American studies": -8.543039321899414,
+                        "African Americans in South Carolina": -8.87491226196289,
+                        "African Americans in Mississippi": -9.032817840576172,
+                        "African Americans in Alabama": -9.849294662475586
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "United States",
                     "score": 7.624989986419678,
                     "start": 41,
                     "end": 44,
                     "tokens": "the United States",
                     "labelScoreMap": {
-                        "U": -6.495736122131348,
-                        "P": -10.447037696838379,
-                        "F": -3.635126829147339,
-                        "A": -4.336205005645752,
-                        "L": -8.531400680541992,
-                        "C": -6.148744106292725
+                        "United States": 7.624989986419678,
+                        "President of the United States": -1.2296435832977295,
+                        "Federal government of the United States": -3.635126829147339,
+                        "Americas": -3.9015753269195557,
+                        "Americans": -4.336205005645752,
+                        "List of Presidents of the United States": -4.9132819175720215,
+                        "Constitution of the United States": -6.148744106292725,
+                        "United States presidential election": -6.495736122131348,
+                        "Law of the United States": -8.531400680541992,
+                        "President of the United States (disambiguation)": -10.447037696838379
                     }
                 },
                 {
-                    "label": "U",
+                    "label": "United States",
                     "score": 9.873221397399902,
                     "start": 50,
                     "end": 51,
                     "tokens": "U.S.",
                     "labelScoreMap": {
-                        "U": -12.306193351745605,
-                        "P": 0.43569281697273254,
-                        "F": -1.1251745223999023,
-                        "A": -4.221269130706787,
-                        "L": -8.38577938079834
+                        "United States": 9.873221397399902,
+                        "United States Senate": 2.9323651790618896,
+                        "President of the United States": 0.43569281697273254,
+                        "United States Congress": -0.5472153425216675,
+                        "Federal government of the United States": -1.1251745223999023,
+                        "U.S. state": -1.5758545398712158,
+                        "Americans": -4.221269130706787,
+                        "United States Army": -4.825939178466797,
+                        "Law of the United States": -8.38577938079834,
+                        "United State": -12.306193351745605
                     }
                 },
                 {
-                    "label": "I",
+                    "label": "Illinois",
                     "score": 9.539753913879395,
                     "start": 53,
                     "end": 54,
                     "tokens": "Illinois",
                     "labelScoreMap": {
-                        "I": -11.686094284057617,
-                        "L": -1.7736867666244507,
-                        "G": -4.583191871643066,
-                        "C": -4.907482147216797,
-                        "2": -10.807772636413574
+                        "Illinois": 9.539753913879395,
+                        "Illinois Senate": -1.3003904819488525,
+                        "List of United States Senators from Illinois": -1.7736867666244507,
+                        "Illinois General Assembly": -1.9138906002044678,
+                        "Governor of Illinois": -4.583191871643066,
+                        "Cook County, Illinois": -4.907482147216797,
+                        "2004 United States Senate election in Illinois": -9.707883834838867,
+                        "2004 United States presidential election in Illinois": -10.381712913513184,
+                        "2000 United States presidential election in Illinois": -10.807772636413574,
+                        "Illinois (disambiguation)": -11.686094284057617
                     }
                 },
                 {
-                    "label": "I",
+                    "label": "Illinois",
                     "score": 8.479888916015625,
                     "start": 60,
                     "end": 61,
                     "tokens": "Illinois",
                     "labelScoreMap": {
-                        "I": -11.373101234436035,
-                        "G": -1.5218976736068726,
-                        "P": -2.3068506717681885,
-                        "L": -3.18186354637146,
-                        "C": -5.865898132324219,
-                        "A": -6.15374755859375
+                        "Illinois": 8.479888916015625,
+                        "Illinois General Assembly": 1.1492235660552979,
+                        "Illinois Senate": 1.0426026582717896,
+                        "Governor of Illinois": -1.5218976736068726,
+                        "Politics of Illinois": -2.3068506717681885,
+                        "List of United States Senators from Illinois": -3.18186354637146,
+                        "Cook County, Illinois": -4.070749282836914,
+                        "Champaign County, Illinois": -5.865898132324219,
+                        "Adams County, Illinois": -6.15374755859375,
+                        "Illinois (disambiguation)": -11.373101234436035
                     }
                 },
                 {
-                    "label": "I",
+                    "label": "Illinois General Assembly",
                     "score": -3.5638957023620605,
                     "start": 64,
                     "end": 67,
                     "tokens": "1997 to 2004",
                     "labelScoreMap": {
-                        "I": -6.542448997497559,
-                        "P": -10.286596298217773,
-                        "2": -11.236083030700684,
-                        "1": -11.469359397888184
+                        "Illinois General Assembly": -3.5638957023620605,
+                        "Illinois Senate": -4.000617027282715,
+                        "Illinois Senate career of Barack Obama": -5.066662311553955,
+                        "Illinois Senate elections of Barack Obama": -6.542448997497559,
+                        "President of the Illinois Senate": -10.286596298217773,
+                        "2004 United States Senate election in Illinois": -10.495519638061523,
+                        "1996 United States Senate election in Illinois": -10.977238655090332,
+                        "2004 United States presidential election in Illinois": -11.236083030700684,
+                        "1998 United States Senate election in Illinois": -11.30813217163086,
+                        "1998 Illinois gubernatorial election": -11.469359397888184
                     }
                 }
             ]
@@ -464,112 +584,607 @@
             "text": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist. He employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101, first applied to him in 1914 in South Africa, is now used throughout the world.",
             "res_json": [
                 {
-                    "label": "M",
+                    "label": "Mahatma Gandhi",
                     "score": 9.903830528259277,
                     "start": 1,
                     "end": 3,
                     "tokens": "Karamchand Gandhi",
                     "labelScoreMap": {
-                        "M": -12.824505805969238,
-                        "K": -12.014518737792969,
-                        "J": -9.05623722076416,
-                        "V": -12.477139472961426
+                        "Mahatma Gandhi": 9.903830528259277,
+                        "Karamchand Uttamchand Gandhi": 0.6483184695243835,
+                        "Jayaprakash Narayan": -9.05623722076416,
+                        "Karad": -9.694643020629883,
+                        "Karamchand": -9.893903732299805,
+                        "Konstantinos Karamanlis": -11.513351440429688,
+                        "K. Shivaram Karanth": -12.014518737792969,
+                        "Vinayak Janardan Karandikar": -12.379804611206055,
+                        "Vinda Karandikar": -12.477139472961426,
+                        "M. N. Karassery": -12.824505805969238
                     }
                 },
                 {
-                    "label": "I",
+                    "label": "India",
                     "score": 5.521438121795654,
                     "start": 5,
                     "end": 6,
                     "tokens": "Indian",
                     "labelScoreMap": {
-                        "I": -8.375394821166992,
-                        "B": -7.913202285766602,
-                        "A": -5.847701072692871,
-                        "M": -5.982406139373779,
-                        "D": -6.216429710388184
+                        "India": 5.521438121795654,
+                        "Indian people": 2.1768887042999268,
+                        "Indian subcontinent": -1.4282935857772827,
+                        "Indian": -1.9039580821990967,
+                        "British Raj": -3.7640702724456787,
+                        "Adivasi": -5.847701072692871,
+                        "Maratha": -5.982406139373779,
+                        "Desi": -6.216429710388184,
+                        "British Indian": -7.913202285766602,
+                        "Indian Americans": -8.375394821166992
                     }
                 },
                 {
-                    "label": "I",
+                    "label": "India",
                     "score": 7.274583339691162,
                     "start": 27,
                     "end": 28,
                     "tokens": "India",
                     "labelScoreMap": {
-                        "I": -3.7881858348846436,
-                        "B": -2.2872791290283203,
-                        "D": -3.3066868782043457,
-                        "P": -5.920708656311035,
-                        "H": -8.153153419494629,
-                        "1": -9.420602798461914
+                        "India": 7.274583339691162,
+                        "British Raj": -2.2872791290283203,
+                        "Indian independence movement": -2.8217241764068604,
+                        "Indian subcontinent": -2.934433698654175,
+                        "Dominion of India": -3.3066868782043457,
+                        "Indian people": -3.7881858348846436,
+                        "Presidencies and provinces of British India": -5.438471794128418,
+                        "Partition of India": -5.920708656311035,
+                        "History of the Republic of India": -8.153153419494629,
+                        "1947 in India": -9.420602798461914
                     }
                 },
                 {
-                    "label": "B",
+                    "label": "British Raj",
                     "score": 7.3563690185546875,
                     "start": 31,
                     "end": 32,
                     "tokens": "British",
                     "labelScoreMap": {
-                        "B": -4.74923038482666,
-                        "U": -1.274198293685913,
-                        "G": 0.9867264628410339,
-                        "E": -2.030693531036377,
-                        "P": -2.3013715744018555,
-                        "K": -2.887697458267212
+                        "British Raj": 7.3563690185546875,
+                        "British Empire": 6.97051477432251,
+                        "United Kingdom": 4.919492721557617,
+                        "Great Britain": 0.9867264628410339,
+                        "United Kingdom of Great Britain and Ireland": -1.274198293685913,
+                        "British people": -1.9666779041290283,
+                        "England": -2.030693531036377,
+                        "Presidencies and provinces of British India": -2.3013715744018555,
+                        "Kingdom of Great Britain": -2.887697458267212,
+                        "BBC": -4.74923038482666
                     }
                 },
                 {
-                    "label": "M",
+                    "label": "Mahatma Gandhi",
                     "score": 11.122865676879883,
                     "start": 50,
                     "end": 51,
                     "tokens": "Mah\u0101tm\u0101",
                     "labelScoreMap": {
-                        "M": -11.052846908569336,
-                        "A": -5.008523464202881
+                        "Mahatma Gandhi": 11.122865676879883,
+                        "Mah\u0101tm\u0101": 10.898816108703613,
+                        "Ascended master": -5.008523464202881,
+                        "Mah\u0101sammata": -9.04311752319336,
+                        "Mahavira": -9.638237953186035,
+                        "Mahant": -10.277848243713379,
+                        "Maharishi Mahesh Yogi": -10.661975860595703,
+                        "Maharana": -10.677299499511719,
+                        "Maharao": -10.848628997802734,
+                        "Maharam": -11.052846908569336
                     }
                 },
                 {
-                    "label": "M",
+                    "label": "Mahatma Gandhi",
                     "score": 0.07088769972324371,
                     "start": 52,
                     "end": 53,
                     "tokens": "first",
                     "labelScoreMap": {
-                        "M": -10.066144943237305,
-                        "T": -8.416574478149414,
-                        "I": -8.46875286102295,
-                        "B": -9.455484390258789,
-                        "R": -10.840164184570312,
-                        "L": -11.641326904296875,
-                        "H": -11.909883499145508
+                        "Mahatma Gandhi": 0.07088769972324371,
+                        "The": -8.416574478149414,
+                        "Indian name": -8.46875286102295,
+                        "Baba (honorific)": -8.579136848449707,
+                        "Beginning of human personhood": -9.455484390258789,
+                        "Mx (title)": -10.066144943237305,
+                        "Retroactive nomenclature": -10.840164184570312,
+                        "List of ideologies named after people": -11.132559776306152,
+                        "List of inventions named after people": -11.641326904296875,
+                        "Honorary titles of Indian leaders": -11.909883499145508
                     }
                 },
                 {
-                    "label": "W",
+                    "label": "World War I",
                     "score": 0.3014998733997345,
                     "start": 57,
                     "end": 58,
                     "tokens": "1914",
                     "labelScoreMap": {
-                        "W": 0.3014998733997345,
-                        "1": -12.189957618713379
+                        "World War I": 0.3014998733997345,
+                        "1914": -1.7519054412841797,
+                        "1914 in literature": -7.384805202484131,
+                        "1914 in philosophy": -10.709421157836914,
+                        "1914 in poetry": -11.734074592590332,
+                        "1915 in philosophy": -11.808218955993652,
+                        "1911 in philosophy": -12.047405242919922,
+                        "1918 in philosophy": -12.06409740447998,
+                        "1906 in philosophy": -12.15611457824707,
+                        "1898 in philosophy": -12.189957618713379
                     }
                 },
                 {
-                    "label": "S",
+                    "label": "South Africa",
                     "score": 9.280963897705078,
                     "start": 59,
                     "end": 61,
                     "tokens": "South Africa",
                     "labelScoreMap": {
-                        "S": -11.934248924255371,
-                        "U": -4.791380882263184,
-                        "P": -7.208833694458008,
-                        "H": -7.777780055999756,
-                        "T": -9.960747718811035
+                        "South Africa": 9.280963897705078,
+                        "South West Africa": -3.741168737411499,
+                        "Union of South Africa": -4.791380882263184,
+                        "South African Republic": -4.923500061035156,
+                        "South America": -6.505981922149658,
+                        "President of South Africa": -7.208833694458008,
+                        "History of South Africa": -7.777780055999756,
+                        "The Church of Jesus Christ of Latter-day Saints in South Africa": -9.960747718811035,
+                        "Slavery in South Africa": -10.001653671264648,
+                        "South Africa (disambiguation)": -11.934248924255371
+                    }
+                }
+            ]
+        },
+        "84d37071072f51295ad7eed77a37b59d735b0f2c": {
+            "text": "Two bombs were detonated in Boston.",
+            "res_json": [
+                {
+                    "label": "Boston Marathon bombing",
+                    "score": 0.3622434139251709,
+                    "start": 0,
+                    "end": 1,
+                    "tokens": "Two",
+                    "labelScoreMap": {
+                        "Boston Marathon bombing": 0.3622434139251709,
+                        "Atomic bombings of Hiroshima and Nagasaki": -6.758605003356934,
+                        "Two and a Half Deaths": -11.090489387512207,
+                        "2016 New York and New Jersey bombings": -11.174542427062988,
+                        "Dublin and Monaghan bombings": -11.189976692199707,
+                        "Two Stories (House)": -11.345041275024414,
+                        "1984 United States embassy annex bombing in Beirut": -11.972976684570312,
+                        "List of accidents and incidents involving the Grumman A-6 Intruder": -12.00994873046875,
+                        "Times Square bomb attack": -12.813244819641113,
+                        "1976 London bombing": -13.013708114624023
+                    }
+                },
+                {
+                    "label": "Boston",
+                    "score": 10.060949325561523,
+                    "start": 5,
+                    "end": 6,
+                    "tokens": "Boston",
+                    "labelScoreMap": {
+                        "Boston": 10.060949325561523,
+                        "Boston, Lincolnshire": 1.3105393648147583,
+                        "Massachusetts": -3.261227607727051,
+                        "Boston, New York": -3.9442145824432373,
+                        "September 11 attacks": -5.404196262359619,
+                        "Somerville, Massachusetts": -5.482919692993164,
+                        "Quincy, Massachusetts": -5.573032379150391,
+                        "Boston, Georgia": -8.718827247619629,
+                        "Outline of Boston": -9.159119606018066,
+                        "Boston (disambiguation)": -11.691704750061035
+                    }
+                }
+            ]
+        },
+        "dd55baa72617bd9f2e44f8f514ac65b09dc76801": {
+            "text": "In 1804, the Holy Roman Emperor Francis II, who was also ruler of the lands of the Habsburg Monarchy, founded the Empire of Austria, in which all his lands were included. In doing so he created a formal overarching structure for the Habsburg Monarchy, which had functioned as a composite monarchy for about three hundred years. He did so because he foresaw either the end of the Holy Roman Empire, or the eventual accession as Holy Roman Emperor of Napoleon, who had earlier that year adopted the title of an Emperor of the French; Francis II eventually abandoned the title of German-Roman Emperor later in 1806. To safeguard his dynasty's imperial status he adopted the additional hereditary title of Emperor of Austria. Apart from now being included in a new \"Kaiserthum\", the workings of the overarching structure and the status of its component lands at first stayed much the same as they had been under the composite monarchy that existed before 1804.",
+            "res_json": [
+                {
+                    "label": "Peace of Pressburg (1805)",
+                    "score": -4.070825099945068,
+                    "start": 1,
+                    "end": 2,
+                    "tokens": "1804",
+                    "labelScoreMap": {
+                        "Peace of Pressburg (1805)": -4.070825099945068,
+                        "1804 in literature": -7.8816447257995605,
+                        "1805 in Austria": -8.38852596282959,
+                        "History of Vienna": -9.214631080627441,
+                        "1804 in music": -10.09580135345459,
+                        "1804 French constitutional referendum": -10.328124046325684,
+                        "1804 in France": -10.757495880126953,
+                        "1802 in Austria": -11.324337005615234,
+                        "1797 in Austria": -11.839737892150879,
+                        "1800 in Austria": -11.969527244567871
+                    }
+                },
+                {
+                    "label": "Francis II, Holy Roman Emperor",
+                    "score": 12.548077583312988,
+                    "start": 3,
+                    "end": 9,
+                    "tokens": "the Holy Roman Emperor Francis II",
+                    "labelScoreMap": {
+                        "Francis II, Holy Roman Emperor": 12.548077583312988,
+                        "Leopold II, Holy Roman Emperor": -6.458296298980713,
+                        "Joseph II, Holy Roman Emperor": -7.397061347961426,
+                        "Francis I, Holy Roman Emperor": -8.260326385498047,
+                        "Franz Joseph I of Austria": -8.531692504882812,
+                        "Francis II of the Two Sicilies": -9.166770935058594,
+                        "Napoleon II": -9.195711135864258,
+                        "Francis I of the Two Sicilies": -10.145780563354492,
+                        "Francis II of France": -10.373557090759277,
+                        "Francis I of France": -10.401240348815918
+                    }
+                },
+                {
+                    "label": "Habsburg Monarchy",
+                    "score": 7.823764324188232,
+                    "start": 18,
+                    "end": 21,
+                    "tokens": "the Habsburg Monarchy",
+                    "labelScoreMap": {
+                        "Habsburg Monarchy": 7.823764324188232,
+                        "Austrian Empire": -3.046393632888794,
+                        "House of Habsburg": -3.8716418743133545,
+                        "Austria-Hungary": -5.704447269439697,
+                        "Kingdom of Croatia (Habsburg)": -6.024201393127441,
+                        "Habsburg Netherlands": -7.380271911621094,
+                        "Duchy of Austria": -7.846076488494873,
+                        "Duchy of Styria": -8.503966331481934,
+                        "Imperial Crown of Austria": -9.257489204406738,
+                        "Kingdom of Dalmatia": -9.627473831176758
+                    }
+                },
+                {
+                    "label": "Austrian Empire",
+                    "score": 3.119399070739746,
+                    "start": 23,
+                    "end": 27,
+                    "tokens": "the Empire of Austria",
+                    "labelScoreMap": {
+                        "Austrian Empire": 3.119399070739746,
+                        "Austria-Hungary": -3.188211679458618,
+                        "Austria": -4.291440010070801,
+                        "Habsburg Monarchy": -5.050912380218506,
+                        "Emperor of Austria": -5.389549255371094,
+                        "Franz Joseph I of Austria": -5.6809916496276855,
+                        "Duchy of Austria": -7.121220588684082,
+                        "History of Austria": -7.228778839111328,
+                        "First Austrian Republic": -7.310443878173828,
+                        "Imperial Crown of Austria": -8.236345291137695
+                    }
+                },
+                {
+                    "label": "Habsburg Monarchy",
+                    "score": 6.926506519317627,
+                    "start": 46,
+                    "end": 49,
+                    "tokens": "the Habsburg Monarchy",
+                    "labelScoreMap": {
+                        "Habsburg Monarchy": 6.926506519317627,
+                        "House of Habsburg": -3.6307129859924316,
+                        "Austria-Hungary": -5.92318058013916,
+                        "Kingdom of Croatia (Habsburg)": -6.0408172607421875,
+                        "Habsburg Netherlands": -7.49504280090332,
+                        "Dual monarchy": -8.229633331298828,
+                        "Line of succession to the former Austro-Hungarian throne": -8.37109661102295,
+                        "Duchy of Austria": -8.59836196899414,
+                        "Habsburg Law": -9.509551048278809,
+                        "Imperial Crown of Austria": -9.983991622924805
+                    }
+                },
+                {
+                    "label": "Habsburg Monarchy",
+                    "score": -4.092694282531738,
+                    "start": 58,
+                    "end": 62,
+                    "tokens": "about three hundred years",
+                    "labelScoreMap": {
+                        "Habsburg Monarchy": -4.092694282531738,
+                        "Century": -6.563557147979736,
+                        "History of Austria": -7.67329216003418,
+                        "Line of succession to the former Austro-Hungarian throne": -9.53140926361084,
+                        "Timeline of Austrian history": -9.61888313293457,
+                        "9th century": -10.560458183288574,
+                        "List of the last monarchs in Europe": -10.872940063476562,
+                        "900s (decade)": -11.207616806030273,
+                        "History of the Lands of the Bohemian Crown (1867\u20131918)": -11.231087684631348,
+                        "800s (decade)": -11.396363258361816
+                    }
+                },
+                {
+                    "label": "Holy Roman Empire",
+                    "score": 8.435441970825195,
+                    "start": 73,
+                    "end": 77,
+                    "tokens": "the Holy Roman Empire",
+                    "labelScoreMap": {
+                        "Holy Roman Empire": 8.435441970825195,
+                        "Holy Roman Emperor": -3.6807076930999756,
+                        "Austrian Empire": -4.882110118865967,
+                        "Byzantine Empire": -5.183845520019531,
+                        "Kingdom of Italy (Holy Roman Empire)": -5.4148054122924805,
+                        "Roman Empire": -5.7640533447265625,
+                        "First French Empire": -5.877544403076172,
+                        "Carolingian Empire": -6.2292962074279785,
+                        "Francia": -7.571033477783203,
+                        "Ferdinand I, Holy Roman Emperor": -8.203336715698242
+                    }
+                },
+                {
+                    "label": "Napoleon",
+                    "score": -0.7587588429450989,
+                    "start": 91,
+                    "end": 94,
+                    "tokens": "earlier that year",
+                    "labelScoreMap": {
+                        "Napoleon": -0.7587588429450989,
+                        "Napoleon III": -3.0374412536621094,
+                        "First French Empire": -4.401715278625488,
+                        "Peace of Pressburg (1805)": -4.818070888519287,
+                        "French First Republic": -5.357271671295166,
+                        "Coronation of Napoleon I": -6.1259636878967285,
+                        "Treaty of Paris (1815)": -6.773512363433838,
+                        "Abdication of Napoleon, 1815": -7.065265655517578,
+                        "Treaty of Fontainebleau (1814)": -7.818332195281982,
+                        "1804 French constitutional referendum": -9.397307395935059
+                    }
+                },
+                {
+                    "label": "France",
+                    "score": 4.043300628662109,
+                    "start": 102,
+                    "end": 103,
+                    "tokens": "French",
+                    "labelScoreMap": {
+                        "France": 4.043300628662109,
+                        "Kingdom of France": -1.4005677700042725,
+                        "Emperor of the French": -3.8327102661132812,
+                        "First French Empire": -3.8801419734954834,
+                        "French colonial empire": -4.857565402984619,
+                        "French First Republic": -5.0374956130981445,
+                        "Second French Empire": -5.1310648918151855,
+                        "Imperial House of France (First French Empire)": -5.483216762542725,
+                        "Francis I of France": -6.041687488555908,
+                        "French Consulate": -6.520660400390625
+                    }
+                },
+                {
+                    "label": "Francis II, Holy Roman Emperor",
+                    "score": 11.843393325805664,
+                    "start": 104,
+                    "end": 106,
+                    "tokens": "Francis II",
+                    "labelScoreMap": {
+                        "Francis II, Holy Roman Emperor": 11.843393325805664,
+                        "Francis II of the Two Sicilies": -2.2713816165924072,
+                        "Francis II of France": -5.280274868011475,
+                        "Leopold II, Holy Roman Emperor": -7.573965072631836,
+                        "Napoleon II": -7.627908706665039,
+                        "Joseph II, Holy Roman Emperor": -8.15949535369873,
+                        "Francis I, Holy Roman Emperor": -8.429681777954102,
+                        "Francis I of the Two Sicilies": -8.834827423095703,
+                        "Francis I of France": -8.836288452148438,
+                        "Francis II": -11.244074821472168
+                    }
+                },
+                {
+                    "label": "Holy Roman Emperor",
+                    "score": 0.757377564907074,
+                    "start": 111,
+                    "end": 112,
+                    "tokens": "German",
+                    "labelScoreMap": {
+                        "Holy Roman Emperor": 0.757377564907074,
+                        "Germany": 0.30610933899879456,
+                        "Holy Roman Empire": -2.0003113746643066,
+                        "German Emperor": -2.806493043899536,
+                        "German Empire": -3.760857582092285,
+                        "Germans": -4.467085361480713,
+                        "Germania": -4.681365966796875,
+                        "Monarchy of Germany": -4.97566032409668,
+                        "Kingdom of Germany": -5.091402530670166,
+                        "German Confederation": -6.146884918212891
+                    }
+                },
+                {
+                    "label": "Dissolution of the Holy Roman Empire",
+                    "score": 3.2383649349212646,
+                    "start": 117,
+                    "end": 118,
+                    "tokens": "1806",
+                    "labelScoreMap": {
+                        "Dissolution of the Holy Roman Empire": 3.2383649349212646,
+                        "Francis II, Holy Roman Emperor": -0.49173757433891296,
+                        "Peace of Pressburg (1805)": -2.5997374057769775,
+                        "Napoleon": -5.441321849822998,
+                        "Napoleon II": -8.6566743850708,
+                        "Francis I, Holy Roman Emperor": -10.03003215789795,
+                        "1806 in France": -10.470001220703125,
+                        "Coronation of Napoleon I": -10.591700553894043,
+                        "Joseph I, Holy Roman Emperor": -10.753710746765137,
+                        "Treaty of Fontainebleau (1814)": -11.624364852905273
+                    }
+                },
+                {
+                    "label": "Kaiserthum",
+                    "score": 8.955666542053223,
+                    "start": 146,
+                    "end": 147,
+                    "tokens": "Kaiserthum",
+                    "labelScoreMap": {
+                        "Kaiserthum": 8.955666542053223,
+                        "States of Austria": -7.155189037322998,
+                        "Federal Theatre (Austria)": -7.5600457191467285,
+                        "Kaiserlich": -7.747800350189209,
+                        "Grand title of the Emperor of Austria": -8.111174583435059,
+                        "Imperial Diet (Austria)": -8.55984878540039,
+                        "Imperial-Royal": -8.857404708862305,
+                        "Orders, decorations, and medals of Austria": -9.64270305633545,
+                        "List of princes of Austria-Hungary": -10.643725395202637,
+                        "List of states in the Holy Roman Empire (M)": -11.095952987670898
+                    }
+                },
+                {
+                    "label": "1st millennium",
+                    "score": -5.597118854522705,
+                    "start": 163,
+                    "end": 164,
+                    "tokens": "first",
+                    "labelScoreMap": {
+                        "1st millennium": -5.597118854522705,
+                        "First Mexican Empire": -6.016027450561523,
+                        "First Toungoo Empire": -6.180068492889404,
+                        "First Dynasty of Egypt": -7.96256685256958,
+                        "First Empire of Haiti": -8.284402847290039,
+                        "First Republic of Armenia": -8.375887870788574,
+                        "First Intermediate Period of Egypt": -8.693860054016113,
+                        "First Babylonian dynasty": -9.03138542175293,
+                        "First Empire": -12.013038635253906,
+                        "Early Dynastic Period": -12.644865989685059
+                    }
+                },
+                {
+                    "label": "1804 United States presidential election",
+                    "score": -8.276927947998047,
+                    "start": 179,
+                    "end": 180,
+                    "tokens": "1804",
+                    "labelScoreMap": {
+                        "1804 United States presidential election": -8.276927947998047,
+                        "1804 in Wales": -9.12153148651123,
+                        "1804 in India": -9.230243682861328,
+                        "1804 in literature": -9.302183151245117,
+                        "1804 French constitutional referendum": -9.604759216308594,
+                        "1804 in art": -10.225399017333984,
+                        "1804 in Russia": -10.268715858459473,
+                        "1804 in Norway": -10.865723609924316,
+                        "1804 in Canada": -11.076571464538574,
+                        "1804 in France": -11.511770248413086
+                    }
+                }
+            ]
+        },
+        "cfa0ca344826161db7c6d66bd062fd504143079f": {
+            "text": "The ACA does not change any benefit eligibility for regular full-time or regular part-time faculty and staff.  The ACA may only impact the eligibility for medical coverage of temporary employees or part-time faculty and staff whose scheduled hours are less than 17.5 per week (less than 910 hours per year; FTE less than 43.75%).",
+            "res_json": [
+                {
+                    "label": "Patient Protection and Affordable Care Act",
+                    "score": 9.43619441986084,
+                    "start": 1,
+                    "end": 2,
+                    "tokens": "ACA",
+                    "labelScoreMap": {
+                        "Patient Protection and Affordable Care Act": 9.43619441986084,
+                        "American College of Apothecaries": 0.16352415084838867,
+                        "American Camp Association": -3.8549416065216064,
+                        "American Collegiate Hockey Association": -7.321627616882324,
+                        "American College Health Association": -8.856841087341309,
+                        "Administration on Aging": -9.077133178710938,
+                        "Air Carrier Access Act": -9.936402320861816,
+                        "American Health Care Association": -10.225068092346191,
+                        "Airlines for America": -10.392078399658203,
+                        "American Competitiveness and Workforce Improvement Act": -10.808781623840332
+                    }
+                },
+                {
+                    "label": "Patient Protection and Affordable Care Act",
+                    "score": 10.46055793762207,
+                    "start": 24,
+                    "end": 25,
+                    "tokens": "ACA",
+                    "labelScoreMap": {
+                        "Patient Protection and Affordable Care Act": 10.46055793762207,
+                        "American College of Apothecaries": -0.13468201458454132,
+                        "American College Health Association": -8.388653755187988,
+                        "Emergency Medical Treatment and Active Labor Act": -9.533093452453613,
+                        "Administration on Aging": -9.636685371398926,
+                        "Air Carrier Access Act": -9.84081745147705,
+                        "American Health Care Association": -10.103370666503906,
+                        "American Competitiveness and Workforce Improvement Act": -10.147551536560059,
+                        "Airlines for America": -10.768230438232422,
+                        "Age Discrimination in Employment Act of 1967": -10.81116771697998
+                    }
+                },
+                {
+                    "label": "Hour",
+                    "score": -1.1615689992904663,
+                    "start": 45,
+                    "end": 46,
+                    "tokens": "hours",
+                    "labelScoreMap": {
+                        "Hour": -1.1615689992904663,
+                        "Working time": -3.3674468994140625,
+                        "Business hours": -4.166906833648682,
+                        "Wage": -5.910617828369141,
+                        "Employment": -6.079165935516357,
+                        "Hours of service": -7.697951793670654,
+                        "Full-time equivalent": -8.959835052490234,
+                        "Drivers' working hours": -10.337532043457031,
+                        "Work measurement": -11.17477035522461,
+                        "Outline of working time and conditions": -11.905455589294434
+                    }
+                },
+                {
+                    "label": "Hours of service",
+                    "score": -8.24001693725586,
+                    "start": 53,
+                    "end": 57,
+                    "tokens": "less than 910 hours",
+                    "labelScoreMap": {
+                        "Hours of service": -8.24001693725586,
+                        "Minimum wage in the United States": -8.456769943237305,
+                        "Equal employment opportunity": -8.814743041992188,
+                        "Drivers' working hours": -9.169817924499512,
+                        "Contract Work Hours and Safety Standards Act": -9.98730182647705,
+                        "Age Discrimination in Employment Act of 1967": -10.304570198059082,
+                        "Occupational Employment Statistics": -10.498173713684082,
+                        "Streamlining Claims Processing for Federal Contractor Employees Act": -10.727097511291504,
+                        "Fairness for American Families Act": -10.942033767700195,
+                        "List of average annual labor hours in OECD countries": -11.312481880187988
+                    }
+                },
+                {
+                    "label": "Full-time equivalent",
+                    "score": 9.734796524047852,
+                    "start": 60,
+                    "end": 61,
+                    "tokens": "FTE",
+                    "labelScoreMap": {
+                        "Full-time equivalent": 9.734796524047852,
+                        "Flight test engineer": -1.6304008960723877,
+                        "Florida's Turnpike Enterprise": -4.496959209442139,
+                        "Fault Tolerant Ethernet": -4.682865619659424,
+                        "Foundation For Technical Education": -4.813741207122803,
+                        "Federal Transit Administration": -6.7625298500061035,
+                        "Time charter equivalent": -10.08965015411377,
+                        "Federal Employers Liability Act": -10.580653190612793,
+                        "Florida Teacher Certification Examinations": -10.99347972869873,
+                        "LTE (telecommunication)": -10.995471954345703
+                    }
+                },
+                {
+                    "label": "Full-time equivalent",
+                    "score": -3.944908380508423,
+                    "start": 61,
+                    "end": 65,
+                    "tokens": "less than 43.75%",
+                    "labelScoreMap": {
+                        "Full-time equivalent": -3.944908380508423,
+                        "Fair Labor Standards Act of 1938": -8.239144325256348,
+                        "Minimum wage in the United States": -8.927813529968262,
+                        "Worker Adjustment and Retraining Notification Act of 1988": -10.214851379394531,
+                        "Contract Work Hours and Safety Standards Act": -10.46627426147461,
+                        "Age Discrimination in Employment Act of 1967": -10.557904243469238,
+                        "Occupational Employment Statistics": -10.681526184082031,
+                        "Streamlining Claims Processing for Federal Contractor Employees Act": -10.882941246032715,
+                        "List of U.S. states by employment rate": -11.831583023071289,
+                        "List of U.S. states and territories by median wage and mean wage": -11.895404815673828
                     }
                 }
             ]
