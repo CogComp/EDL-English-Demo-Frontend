@@ -26,7 +26,7 @@ spacy_en = spacy.load("en_core_web_sm")
 BASE_HTML_PATH = "./html"
 #BASE_MULTILANG_NER_HTTP = 'http://dickens.seas.upenn.edu:4033/ner'
 #BASE_MULTILANG_EDL_HTTP = 'http://macniece.seas.upenn.edu:4032/edl'
-BASE_MULTILANG_EDL_HTTP = 'http://dickens.seas.upenn.edu:4002/api/eng_edl/'
+BASE_MULTILANG_EDL_HTTP = 'http://dickens.seas.upenn.edu:4029/api/eng_edl/'
 
 # BASE_COGCOMP_HTTP = "http://macniece.seas.upenn.edu:4001/annotate"
 
@@ -310,7 +310,7 @@ def doProcess(myTabularView, lang=None, text=None, anns=None):
             linkEDL.append("")
         for edl in edljson:
             #param = edl["label"].split("|")
-            param = edl["tokens"]
+            param = edl["label"].replace(" ","_")
             #print('line285 param',param)
             # if len(param) > 1:
             #     param = param[1]

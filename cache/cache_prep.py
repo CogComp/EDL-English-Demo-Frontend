@@ -7,7 +7,7 @@ import json
 import hashlib
 import requests
 
-BASE_MULTILANG_EDL_HTTP = 'http://dickens.seas.upenn.edu:4002/api/eng_edl/'
+BASE_MULTILANG_EDL_HTTP = 'http://dickens.seas.upenn.edu:4029/api/eng_edl/'
 
 #--------------------- Sample Sentences ---------------------
 
